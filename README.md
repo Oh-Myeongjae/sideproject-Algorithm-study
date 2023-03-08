@@ -1,2 +1,2 @@
 # sideproject-Algorithm-study
-알고리즘 스터디입니다.
+  - [거품 정렬(Bubble Sort)]()
