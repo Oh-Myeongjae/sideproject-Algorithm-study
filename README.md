@@ -4,3 +4,4 @@
   - [퀵 정렬(Quick Sort)](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%ED%80%B5%20%EC%A0%95%EB%A0%AC(Quick%20Sort).md)
   - [재귀함수](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%EC%9E%AC%EA%B7%80%ED%95%A8%EC%88%98.md)
   - [힙 정렬](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%ED%9E%99%20%EC%A0%95%EB%A0%AC(Heap%20Sort).md)
+  - [선택 정렬](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC(selection%20sort).md)
