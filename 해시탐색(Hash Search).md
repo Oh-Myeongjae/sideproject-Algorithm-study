@@ -53,3 +53,9 @@
 - 데이터를 검색하는 알고리즘
 
 
+## 참고 
+- (자바스크립트 참고 코드)[https://velog.io/@dlrmsghks7/%ED%83%90%EC%83%89-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EC%9D%84-%EC%95%8C%EC%95%84%EB%B4%85%EC%8B%9C%EB%8B%A4]
+- (파이썬 참고 코드)[https://excelsior-cjh.tistory.com/125]
+- (참고자료)[https://toward-the-future.tistory.com/entry/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EA%B2%80%EC%83%89Search-%EC%84%A0%ED%98%95-%EA%B2%80%EC%83%89Linear-Search-%EC%9D%B4%EC%A7%84-%EA%B2%80%EC%83%89Binary-Search-%ED%95%B4%EC%8B%9C%EB%B2%95Hashing]
+
+
