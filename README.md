@@ -8,3 +8,4 @@
   - [선형 탐색](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%EC%84%A0%ED%98%95%ED%83%90%EC%83%89(Linear%20Search).md)
   - [병합 정렬(Merge Sort)](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%EB%B3%91%ED%95%A9%EC%A0%95%EB%A0%AC(merge%20Search).md)
   - [이진 탐색(Binary Search)](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%EC%9D%B4%EC%A7%84%20%ED%83%90%EC%83%89(Binary%20Search).md)
+  - [해시탐색(Hash Search)](https://github.com/jinhyoje/sideproject-Algorithm-study/blob/main/%ED%95%B4%EC%8B%9C%ED%83%90%EC%83%89(Hash%20Search).md)
