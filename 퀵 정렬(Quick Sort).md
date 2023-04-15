@@ -24,3 +24,48 @@
   - 추가 메모리 공간을 필요로 하지 않는다.
 - 단점
   - 정렬된 리스트에 대해서는 퀵 정렬의 불균형 분할에 의해 오히려 수행시간이 더 많이 걸린다.  
+
+## 구현
+```
+	public static void main(String[] args) {
+		int[] arr = { 5, 3, 8, 4, 2 };
+        int n = arr.length;
+        System.out.println("Before sorting: " + Arrays.toString(arr));
+        quickSort(arr, 0, n - 1);
+        System.out.println("After sorting: " + Arrays.toString(arr));	
+	}
+
+	private static void quickSort(int[] arr, int start, int end) {
+		if(start<end) {
+			
+			int pivot = partition(arr,start,end);
+			
+			quickSort(arr,start,pivot-1);
+			quickSort(arr,pivot+1,end);
+		}
+	}
+
+	private static int partition(int[] arr, int start, int end) {
+		
+		int pivot = arr[start];
+		int l = start;
+		int r = end;
+		
+		while(l<r) {
+			while(pivot<arr[r]) {
+				r--;
+			}
+			while(l<r && pivot>=arr[l]) {
+				l++;
+			}
+
+			int temp = arr[l];
+			arr[l] = arr[r];
+			arr[r] = temp;
+
+		}
+		arr[start] = arr[l];
+		arr[l] = pivot;
+		return l;
+	}
+   ```
