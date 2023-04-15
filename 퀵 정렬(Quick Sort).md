@@ -27,7 +27,7 @@
 
 ## 구현
 ```
-public static void main(String[] args) {
+	public static void main(String[] args) {
 		int[] arr = { 5, 3, 8, 4, 2 };
         int n = arr.length;
         System.out.println("Before sorting: " + Arrays.toString(arr));
