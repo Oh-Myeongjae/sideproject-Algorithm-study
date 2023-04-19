@@ -8,3 +8,24 @@ Insertion Sort는 2번째 원소부터 시작하여 그 앞(왼쪽)의 원소들
  #### 단점
  - 평균과 최악의 시간복잡도가 O(n^2)으로 비효율적이다.
  - Bubble Sort와 Selection Sort와 마찬가지로, 배열의 길이가 길어질수록 비효율적이다.
+
+````
+public static void main(String[] args) {
+		int[] arr = {50,62,51,32,80,90,100,41,30 };
+        System.out.println("Before sorting: " + Arrays.toString(arr));
+        InsertionSort(arr);
+        System.out.println("After sorting: " + Arrays.toString(arr));	
+	}
+
+	private static void InsertionSort(int[] arr) {
+		for (int i = 1; i < arr.length; i++) {
+			int score = arr[i];
+			int findIdx = i-1;
+			while(findIdx >= 0 && arr[findIdx]>score) {
+				arr[findIdx+1] = arr[findIdx];
+				findIdx--;
+			}
+			arr[findIdx+1] = score;
+		}
+	}
+````
