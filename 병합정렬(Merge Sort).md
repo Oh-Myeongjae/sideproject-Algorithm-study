@@ -33,3 +33,54 @@
 **단점**
 
 - 두 배열을 병합할 때 병합 결과를 담을 배열이 추가로 필요 → 공간 복잡도 O(N)
+
+public static void main(String[] args) {
+		int[] arr = {50,62,51,32,80,90,100,41,30 };
+        System.out.println("Before sorting: " + Arrays.toString(arr));
+        mergeSort(arr,0,arr.length-1);
+        System.out.println("After sorting: " + Arrays.toString(arr));	
+	}
+
+	private static void mergeSort(int[] arr, int left, int right) {
+		if(left<right) {
+			int mid = (left+right)/2;
+			
+			mergeSort(arr, left, mid);
+			mergeSort(arr, mid+1, right);
+			
+			merge(arr,left,mid,right);
+		}
+		
+	}
+											
+	private static void merge(int[] arr, int left, int mid, int right) {
+		int[] L = Arrays.copyOfRange(arr, left, mid+1);
+		int[] R = Arrays.copyOfRange(arr, mid+1, right+1);
+		
+		int idx = left;
+		int l = 0;
+		int r = 0;
+		
+		while(l<L.length && r<R.length) {
+			if(L[l]<=R[r]) {
+				arr[idx] = L[l];
+				l++;
+			}else {
+				arr[idx] = R[r];
+				r++;
+			}
+			idx++;
+		}
+		
+		while(l<L.length) {
+			arr[idx] = L[l];
+			l++;
+			idx++;
+		}
+		
+		while(r<R.length) {
+			arr[idx] = R[r];
+			r++;
+			idx++;
+		}
+	}
