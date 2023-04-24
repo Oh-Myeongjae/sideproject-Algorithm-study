@@ -34,6 +34,7 @@
 
 - 두 배열을 병합할 때 병합 결과를 담을 배열이 추가로 필요 → 공간 복잡도 O(N)
 
+```
 public static void main(String[] args) {
 		int[] arr = {50,62,51,32,80,90,100,41,30 };
         System.out.println("Before sorting: " + Arrays.toString(arr));
@@ -84,3 +85,4 @@ public static void main(String[] args) {
 			idx++;
 		}
 	}
+```
